@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body {
+    font-family: Poppins, sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    font-weight: 20px;
+    color: #222;
+    position: relative;
+}
+
+.form-login {
+    width: 100%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #2222;
+    padding: 50px 60px 70px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.input-name {
+    background: lightgray ;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.input-phone {
+    background: lightgray ;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.input-email {
+    background: lightgray ;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.button {
+    width: 100%;
+    height: 45px;
+    font-size: 17px;
+    border-radius: 3px;
+    background: #373a40;
+    color: white;
+    outline-color: none;
+    cursor: pointer;
+    border: 0px solid;
+
+}
+.table {
+    margin-top: 260px;
+    width: 100%;
+    padding: 70px;
+    border-collapse: collapse;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.Table2 {
+    background: lightgray;
+    height: 40px;
+    width: 40px;
+}
+
+.Edit {
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    background: limegreen;
+    color: white;
+    cursor: pointer;
+    border: 0px solid;
+}
+
+.Delete {
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    background: red;
+    color: white; 
+    cursor: pointer;
+    border: 0px solid;
+}
